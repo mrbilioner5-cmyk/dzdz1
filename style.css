@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    width: 220px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+.parent {
+    width: 100%;
+    max-width: 500px;
+    height: 120px;
+    background-color: lightgray;
+    border: 2px solid black;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.small {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
